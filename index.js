@@ -3,10 +3,7 @@ const {
 } = require("./constants");
 const {getLibs} = require("./libs");
 
-const includes = vlcIncludes.replace((/\\/g, '/'));
-console.log(includes);
-
 module.exports = {
-  includes,
+  includes: vlcIncludes.replace((/\\/g, '/')),
   getLibs
 }

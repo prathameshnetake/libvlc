@@ -7,9 +7,7 @@ const path = require("path");
 const getLibs = () => {
   if (isWin()) {
     const lib = fs.realpathSync(path.resolve(vlcLibDir, "libvlc.lib")).replace(/\\/g, '/');
-    console.log(lib);
     if (fs.existsSync(`${vlcLibDir}/libvlc.lib`)) {
-      log.info("lib", "libs do exist in this path");
       return lib;
     }
     return "";
