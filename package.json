@@ -1,0 +1,35 @@
+{
+  "name": "libvlc",
+  "version": "0.0.1",
+  "description": "liblvc includes and pre-compiled libs for native node addons development in linux and windows",
+  "main": "index.js",
+  "scripts": {
+    "install": "node ./install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prathameshnetake/libvlc.git"
+  },
+  "keywords": [
+    "libvlc",
+    "vlc",
+    "node",
+    "webcam",
+    "stream",
+    "live",
+    "ipcam",
+    "windows",
+    "linix",
+    "libraries",
+    "includes"
+  ],
+  "author": "prathameshnetake",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prathameshnetake/libvlc/issues"
+  },
+  "homepage": "https://github.com/prathameshnetake/libvlc#readme",
+  "dependencies": {
+    "npmlog": "^4.1.2"
+  }
+}
