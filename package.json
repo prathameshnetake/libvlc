@@ -1,6 +1,6 @@
 {
   "name": "libvlc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "liblvc includes and pre-compiled libs for native node addons development in linux and windows",
   "main": "index.js",
   "scripts": {
